@@ -6,14 +6,6 @@ import { useState } from "react";
 function App() {
   const [view, setView] = useState("pagination");
 
-  // const Pagination = () => {};
-  // {
-  //   <Pagination />;
-  // }
-  // const InfiniteScroll = () => {};
-  // {
-  //   <InfiniteScroll />;
-  // }
   return (
     <div>
       <h1>Welcome to Random Users</h1>
