@@ -1,0 +1,19 @@
+.card {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 5rem;
+}
+.img {
+  width: 18rem;
+  height: 18rem;
+}
+h2 {
+  text-align: center;
+}
+.nav {
+  text-align: center;
+}
+button {
+  margin: 2rem;
+  padding: 0.5rem;
+}
