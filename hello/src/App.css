@@ -10,10 +10,22 @@
 h2 {
   text-align: center;
 }
+h1 {
+  text-align: center;
+}
 .nav {
   text-align: center;
 }
 button {
   margin: 2rem;
   padding: 0.5rem;
+}
+.pagin {
+  display: flex;
+  margin-left: 5rem;
+}
+.page-item {
+  border: 1px solid black;
+  padding: 1rem;
+  margin-left: 0.5rem;
 }

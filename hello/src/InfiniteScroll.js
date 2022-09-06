@@ -10,7 +10,7 @@ function InfiniteScroll() {
     axios.get(`https://dummyjson.com/products?offset=${offset}`).then((res) => {
       console.log(res.data.products);
       const data = res.data.products;
-      setData((pre) => [...pre, ...data]);
+      setData((data) => [...data, ...res.data.products]);
     }, []);
   };
 
